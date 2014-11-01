@@ -1,0 +1,10 @@
+require_relative 'frame'
+
+class SpareFrame < Frame
+  BALLS_COUNT = 2
+  BONUS_BALLS_COUNT = 1
+
+  def initialize(balls)
+    super(balls, BALLS_COUNT, BONUS_BALLS_COUNT)
+  end
+end
